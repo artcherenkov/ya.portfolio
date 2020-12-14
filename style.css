@@ -1,9 +1,16 @@
+/*================================
+      body элемент
+================================*/
 .page {
   font-family: 'Cormorant Garamond', sans-serif;
 }
 .page__menu {
   margin: 40px auto;
 }
+
+/*================================
+      Вспомогательные миксы
+================================*/
 
 .centered-block {
   margin: auto;
@@ -34,6 +41,10 @@
 .flex-column_reversed {
   flex-direction: column-reverse;
 }
+
+/*================================
+    БЭМ-блоки
+================================*/
 
 .header {
   height: 95px;
@@ -130,7 +141,6 @@
   max-width: 1330px;
   min-width: 1280px;
 }
-
 .footer__logo {
   width: 145px;
   height: 25px;
